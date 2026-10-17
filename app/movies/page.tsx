@@ -2,6 +2,8 @@ import axios from 'axios'
 import Link from 'next/link'
 import MovieExplorer, { OMDbShow } from './MovieExplorer'
 
+export const dynamic = 'force-dynamic'
+
 const API_KEY = '668075d0'
 
 // SSR: Fetch Severance directly from OMDb API
